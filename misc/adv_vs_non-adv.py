@@ -23,12 +23,12 @@ import cv2
 from PIL import Image
 from PIL import ImageDraw
 
-coverage = 25
+parent = "Z:/Jeffrey-Ede/models/stem-random-walk-nin-20-54/"
+prependings = ["test_input-", "test_truth-", "test_output-", "test_adversarial-"]
 
-parent = "Z:/Jeffrey-Ede/models/stem-random-walk-nin-20-68/"
-prependings = [f"final_{coverage}_input-", f"final_25_truth-", f"final_{coverage}_output-", f"final_{coverage}_adversarial-"]
-
-image_nums = [3, 4, 15, 18, 20]
+#image_nums = [8, 18, 41, 35, 45]
+#image_nums = [3, 13, 11, 19, 48]
+image_nums = [42, 46, 40, 34, 24]
 
 
 imgs = []
@@ -108,7 +108,7 @@ rows = 5
 for i in range(rows):
     for j in range(1, columns+1):
         img = np.ones(shape=(side,side))
-        img[:w, :w] = imgs[columns*i+j-1]
+        img[:w, :w] = scale0to1(imgs[columns*i+j-1])
         crop = block_resize(img[:subplot_cropsize, :subplot_cropsize], 
                           (subplot_side, subplot_side))
         img[(side-subplot_side):,(side-subplot_side):] = crop
@@ -131,4 +131,4 @@ f.set_size_inches(width, height)
 
 #plt.show()
 
-f.savefig(f'adv_vs_non-adv_extra-{coverage}.png', bbox_inches='tight')
+f.savefig('adv_vs_non-adv_extra-2.png', bbox_inches='tight')
