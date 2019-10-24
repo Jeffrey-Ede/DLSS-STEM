@@ -6,6 +6,8 @@ Pretrained models for unified generators are available [here](https://mycloud-te
 
 The STEM Crops dataset is available [here](https://warwick.ac.uk/fac/sci/physics/research/condensedmatt/microscopy/research/machinelearning/).
 
-# Contact:
+This repository is primarily for record-keeping. A live system for DigitalMicrograph will be released separately. 
+
+Contact:
 
 Jeffrey Ede: j.m.ede@warwick.ac.uk
