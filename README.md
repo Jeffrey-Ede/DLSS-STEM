@@ -1,6 +1,6 @@
 # Deep Learning Supersampled Scanning Transmission Electron Microscopy (DLSS-STEM)
 
-Repository for the [paper](arxiv.org/abs/1910.10467) "Deep Learning Supersampled Scanning Transmission Electron Microscopy".
+Repository for the [paper](http://arxiv.org/abs/1910.10467) "Deep Learning Supersampled Scanning Transmission Electron Microscopy".
 
 Pretrained models for unified generators are available [here](https://mycloud-test.warwick.ac.uk/s/rbgCbZdXWqzSLCf). The download password is "W4rw1ck3m!" (without quotations). 
 
