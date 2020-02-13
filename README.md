@@ -6,7 +6,7 @@ Pretrained models for unified generators are available [here](https://mycloud-te
 
 The STEM Crops dataset is available [here](https://warwick.ac.uk/fac/sci/physics/research/condensedmatt/microscopy/research/machinelearning/).
 
-This repository is primarily for record-keeping. A live system for DigitalMicrograph will be released separately. 
+This repository is primarily for record-keeping. The latest version of this repository is [here](https://github.com/Jeffrey-Ede/Higher-Resolution-STEM).
 
 Contact:
 
